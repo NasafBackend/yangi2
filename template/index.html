@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+
+    <div class="blog-card spring-fever">
+        <div class="title-content">
+          <h3><a href="#">Dunyoning eng chiroyli shaharlariga sayohat qilish</a></h3>
+          <div class="intro"> <a href="{% static 'aa/dist/index.html' %}">Bog'lanish</a> </div>
+        </div>
+        <div class="card-info">
+         Butun dunyo bo'ylab sayohat qilishni orzu qilasizmi, lekin nimadan boshlashni bilmayapsizmi? Buning uchun sayyoramizning eng chiroyli shaharlari bilan tanishishingiz kerak. Ularda xalqlar madaniyati, haqiqiy hayot, o'ziga xoslik ifodasi mavjud... 
+          <a href="{% static 'data.html' %}">davomini o'qish <span class="licon icon-arr icon-black"></span></a>
+        </div>
+        <div class="utility-info">
+          <ul class="utility-list">
+            <li><span class="licon icon-like"></span><a href="#">2</a></li>
+            <li><span class="licon icon-com"></span><a href="#">12</a></li>
+            <li><span class="licon icon-dat"></span>03 dek 2021</li>
+            <li><span class="licon icon-tag"></span><a href="{% static 'a/indec.html' %}">Rasmlar</a>, <a href="#">Nice</a></li>
+          </ul>
+        </div>
+        <div class="gradient-overlay"></div>
+        <div class="color-overlay"></div>
+      </div><!-- /.blog-card -->
+      
+      
+</body>
+</html>
